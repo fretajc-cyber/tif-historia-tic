@@ -87,12 +87,11 @@
   <header class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 sticky top-0 z-40 shadow-lg">
     <div class="max-w-7xl mx-auto px-4 py-3.5 flex flex-col lg:flex-row justify-between items-center gap-3">
       <div class="flex items-center space-x-3 cursor-pointer" onclick="showPage('inicio')">
-        <img id="header-escudo-img" src="https://share.google/VaCruf4hW5ns2Ac9b" alt="Escudo IES N°5 José Eugenio Tello"
-          onload="this.classList.remove('hidden'); document.getElementById('header-escudo-fallback').classList.add('hidden');"
+        <img id="header-escudo-img" src="Escudo-I.E.S.-N-5-encabezado.jpg" alt="Escudo IES N°5 José Eugenio Tello"
           onerror="this.classList.add('hidden'); document.getElementById('header-escudo-fallback').classList.remove('hidden');"
-          class="hidden w-11 h-11 object-contain rounded-lg bg-white/95 p-0.5 shadow-md border border-red-500/30">
+          class="w-11 h-11 object-contain rounded-lg bg-white/95 p-0.5 shadow-md border border-red-500/30">
         <div id="header-escudo-fallback"
-          class="bg-gradient-to-br from-red-600 to-red-800 text-white rounded-xl font-extrabold text-lg flex items-center justify-center w-11 h-11 shadow-md border border-red-500/30">
+          class="hidden bg-gradient-to-br from-red-600 to-red-800 text-white rounded-xl font-extrabold text-lg flex items-center justify-center w-11 h-11 shadow-md border border-red-500/30">
           I5
         </div>
         <div>
@@ -132,25 +131,13 @@
       <div class="max-w-4xl mx-auto text-center py-4 sm:py-10">
         <div class="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-8 mb-8 max-w-2xl mx-auto shadow-xl">
           <div class="flex flex-col items-center">
-            <img id="hero-escudo-img" src="https://share.google/VaCruf4hW5ns2Ac9b" alt="Escudo del IES N° 5 José Eugenio Tello"
-              onload="this.classList.remove('hidden'); document.getElementById('hero-escudo-placeholder').classList.add('hidden');"
+            <img id="hero-escudo-img" src="Escudo-I.E.S.-N-5-encabezado.jpg" alt="Escudo del IES N° 5 José Eugenio Tello"
               onerror="this.classList.add('hidden'); document.getElementById('hero-escudo-placeholder').classList.remove('hidden');"
-              class="hidden w-24 h-28 sm:w-28 sm:h-32 object-contain mb-3 drop-shadow-md bg-white/95 rounded-xl p-1">
+              class="w-24 h-28 sm:w-28 sm:h-32 object-contain mb-3 drop-shadow-md bg-white/95 rounded-xl p-1">
             <div id="hero-escudo-placeholder"
-              class="w-24 h-28 rounded-2xl bg-slate-950 border-2 border-dashed border-red-700/60 flex flex-col items-center justify-center mb-3 px-2 text-center">
+              class="hidden w-24 h-28 rounded-2xl bg-slate-950 border-2 border-dashed border-red-700/60 flex flex-col items-center justify-center mb-3 px-2 text-center">
               <i class="fa-solid fa-shield-halved text-red-400 text-2xl mb-1"></i>
               <span class="text-[10px] text-slate-400 leading-tight">Escudo IES N° 5<br>José Eugenio Tello</span>
-            </div>
-
-            <div class="flex flex-wrap justify-center gap-2 mb-3">
-              <a href="https://share.google/VaCruf4hW5ns2Ac9b" target="_blank"
-                class="inline-flex items-center gap-1.5 text-[11px] bg-slate-800 hover:bg-slate-700 text-red-300 border border-slate-700 px-3 py-1 rounded-full transition">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver enlace del escudo
-              </a>
-              <label class="cursor-pointer inline-flex items-center gap-1.5 text-[11px] bg-slate-800 hover:bg-red-900/60 text-slate-300 hover:text-white border border-slate-700 px-3 py-1 rounded-full transition">
-                <i class="fa-solid fa-upload text-red-400"></i> Cargar de forma manual
-                <input type="file" accept="image/*" class="hidden" onchange="window.previewEscudo(this)">
-              </label>
             </div>
 
             <span class="text-xs font-extrabold uppercase tracking-wider text-red-400">
@@ -314,8 +301,12 @@
             <span class="bg-blue-950 text-blue-300 text-xs px-2.5 py-1 rounded-md font-semibold border border-blue-800/50">Trabajo Práctico</span>
             <h4 class="text-lg font-bold text-white">Trabajo práctico de la Ley de Educación Nacional 26206 y anteriores</h4>
             <p class="text-slate-300 text-xs leading-relaxed">
-              Lectura y análisis de la Ley 26.206 y antecedentes normativos educativos.
+              Corresponde al trabajo práctico de la Ley de Educación Nacional 26.206 y anteriores.
             </p>
+            <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 leading-relaxed">
+              <strong class="text-red-300 block mb-1">Aportes a la formación docente:</strong>
+              Una mirada histórica al marco legal y la evolución de la tecnología educativa. Presentando las TIC como herramienta de inclusión y equidad, no solo como un recurso técnico.
+            </div>
             <div>
               <a href="https://docs.google.com/document/d/12V3pJUa36MJtxdYPa_-zzluKluqr1JUqRN7Dy8avDBA/edit?usp=drivesdk" target="_blank" class="inline-flex items-center bg-slate-800 hover:bg-red-700 text-white text-xs py-2.5 px-4 rounded-xl font-medium transition shadow">
                 <i class="fa-solid fa-file-lines mr-1.5"></i> Ver Documento
@@ -347,8 +338,12 @@
             <span class="bg-indigo-950 text-indigo-300 text-xs px-2.5 py-1 rounded-md font-semibold border border-indigo-800/50">Trabajo Práctico</span>
             <h4 class="text-lg font-bold text-white">Trabajo Práctico de la Política Educativa en Inclusión de las TIC</h4>
             <p class="text-slate-300 text-xs leading-relaxed">
-              Revisión de programas de inclusión digital y políticas públicas tecnológicas.
+              Trabajo práctico de la política educativa en inclusión de las TIC.
             </p>
+            <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 leading-relaxed">
+              <strong class="text-red-300 block mb-1">Aportes a la formación docente:</strong>
+              Nos permitió conocer diferentes programas de inclusión digital, reconocer su contribución a la reducción de la brecha tecnológica y reflexionar sobre la necesidad de integrar las herramientas digitales con sentido pedagógico, promoviendo una educación más inclusiva, equitativa e innovadora.
+            </div>
             <div>
               <a href="https://drive.google.com/file/d/11B8XUd1qCLMjSp366avl7CYTbtV-6sbZ/view?usp=drivesdk" target="_blank" class="inline-flex items-center bg-slate-800 hover:bg-red-700 text-white text-xs py-2.5 px-4 rounded-xl font-medium transition shadow">
                 <i class="fa-solid fa-file-arrow-down mr-1.5"></i> Ver Archivo
@@ -358,15 +353,7 @@
 
           <div class="lg:col-span-5 bg-slate-950 border border-dashed border-slate-700 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4">
             <div class="flex flex-col items-center shrink-0">
-              <img id="qr-img-tp2" src="" alt="QR Política Educativa TIC" class="hidden w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
-              <div id="qr-ph-tp2" class="w-32 h-32 rounded-xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-center p-2 mb-2">
-                <i class="fa-solid fa-qrcode text-slate-500 text-3xl mb-1"></i>
-                <span class="text-[10px] text-slate-400">QR Políticas TIC<br>(QR Code.IO)</span>
-              </div>
-              <label class="cursor-pointer text-[11px] bg-slate-800 hover:bg-red-700 text-slate-200 px-3 py-1 rounded-md transition">
-                Cargar de forma manual
-                <input type="file" accept="image/*" class="hidden" onchange="window.previewQr(this, 'qr-img-tp2', 'qr-ph-tp2')">
-              </label>
+              <img id="qr-img-tp2" src="Politica educativa en inclusion de tic.jpg" alt="QR Política Educativa TIC" class="w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
             </div>
             <p class="text-xs text-slate-300 leading-snug text-center sm:text-left">
               Inclusión digital, acceso a dispositivos y políticas TIC en las escuelas.
@@ -380,8 +367,12 @@
             <span class="bg-purple-950 text-purple-300 text-xs px-2.5 py-1 rounded-md font-semibold border border-purple-800/50">Trabajo Práctico</span>
             <h4 class="text-lg font-bold text-white">Trabajo practico Análisis histórico de las leyes educativas argentinas las reformas, innovaciones y los cambios</h4>
             <p class="text-slate-300 text-xs leading-relaxed">
-              Diferencias entre reforma, cambio e innovación en contextos escolares.
+              Trabajo práctico análisis histórico de las leyes educativas argentinas, las reformas, la innovación y los cambios.
             </p>
+            <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 leading-relaxed">
+              <strong class="text-red-300 block mb-1">Aporte a la formación docente:</strong>
+              La construcción de una mirada critica y analítica de las políticas educativas. Nos permitió comprender que las reformas y las innovaciones no consisten solamente en modificar leyes o incorporar nuevas propuestas, sino que requieren considerar la realidad de las instituciones, las necesidades de los estudiantes y, especialmente, el papel de los docentes como protagonistas del cambio educativo.
+            </div>
             <div>
               <a href="https://docs.google.com/document/d/1FqPKhuf4cG8aYMevPF0hd0yplwUar3jV_XHNQstJUCc/edit?usp=drivesdk" target="_blank" class="inline-flex items-center bg-slate-800 hover:bg-red-700 text-white text-xs py-2.5 px-4 rounded-xl font-medium transition shadow">
                 <i class="fa-solid fa-file-lines mr-1.5"></i> Ver Documento
@@ -391,15 +382,7 @@
 
           <div class="lg:col-span-5 bg-slate-950 border border-dashed border-slate-700 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4">
             <div class="flex flex-col items-center shrink-0">
-              <img id="qr-img-tp3" src="" alt="QR Análisis Histórico" class="hidden w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
-              <div id="qr-ph-tp3" class="w-32 h-32 rounded-xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-center p-2 mb-2">
-                <i class="fa-solid fa-qrcode text-slate-500 text-3xl mb-1"></i>
-                <span class="text-[10px] text-slate-400">QR Reformas<br>(QR Code.IO)</span>
-              </div>
-              <label class="cursor-pointer text-[11px] bg-slate-800 hover:bg-red-700 text-slate-200 px-3 py-1 rounded-md transition">
-                Cargar de forma manual
-                <input type="file" accept="image/*" class="hidden" onchange="window.previewQr(this, 'qr-img-tp3', 'qr-ph-tp3')">
-              </label>
+              <img id="qr-img-tp3" src="Analisis historico de leyes.jpg" alt="QR Análisis Histórico" class="w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
             </div>
             <p class="text-xs text-slate-300 leading-snug text-center sm:text-left">
               Transformación pedagógica, reformas educativas e innovación con TIC.
@@ -442,15 +425,7 @@
 
           <div class="lg:col-span-5 bg-slate-950 border border-dashed border-slate-700 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4">
             <div class="flex flex-col items-center shrink-0">
-              <img id="qr-img-tp4" src="" alt="QR Metaverso y Padlet" class="hidden w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
-              <div id="qr-ph-tp4" class="w-32 h-32 rounded-xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-center p-2 mb-2">
-                <i class="fa-solid fa-qrcode text-slate-500 text-3xl mb-1"></i>
-                <span class="text-[10px] text-slate-400">QR Metaverso<br>(QR Code.IO)</span>
-              </div>
-              <label class="cursor-pointer text-[11px] bg-slate-800 hover:bg-red-700 text-slate-200 px-3 py-1 rounded-md transition">
-                Cargar de forma manual
-                <input type="file" accept="image/*" class="hidden" onchange="window.previewQr(this, 'qr-img-tp4', 'qr-ph-tp4')">
-              </label>
+              <img id="qr-img-tp4" src="Padlet historia tic.jpg" alt="QR Metaverso y Padlet" class="w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
             </div>
             <p class="text-xs text-slate-300 leading-snug text-center sm:text-left">
               Conceptos clave de tecnología educativa en Padlet y visita al metaverso.
@@ -475,15 +450,7 @@
 
           <div class="lg:col-span-5 bg-slate-950 border border-dashed border-slate-700 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4">
             <div class="flex flex-col items-center shrink-0">
-              <img id="qr-img-tp5" src="" alt="QR Historieta de la inclusión de las TIC" class="hidden w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
-              <div id="qr-ph-tp5" class="w-32 h-32 rounded-xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-center p-2 mb-2">
-                <i class="fa-solid fa-qrcode text-slate-500 text-3xl mb-1"></i>
-                <span class="text-[10px] text-slate-400">QR Historieta<br>(QR Code.IO)</span>
-              </div>
-              <label class="cursor-pointer text-[11px] bg-slate-800 hover:bg-red-700 text-slate-200 px-3 py-1 rounded-md transition">
-                Cargar de forma manual
-                <input type="file" accept="image/*" class="hidden" onchange="window.previewQr(this, 'qr-img-tp5', 'qr-ph-tp5')">
-              </label>
+              <img id="qr-img-tp5" src="Historieta.jpg" alt="QR Historieta de la inclusión de las TIC" class="w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
             </div>
             <p class="text-xs text-slate-300 leading-snug text-center sm:text-left">
               Historieta digital sobre la inclusión de las TIC en el ámbito educativo.
@@ -497,8 +464,12 @@
             <span class="bg-amber-950 text-amber-300 text-xs px-2.5 py-1 rounded-md font-semibold border border-amber-800/50">Trabajo Práctico</span>
             <h4 class="text-lg font-bold text-white">Trabajo práctico de las generaciones de la historia de la tecnología educativa</h4>
             <p class="text-slate-300 text-xs leading-relaxed">
-              Etapas de la educación a distancia, teorías en red y actividad interactiva.
+              Trabajo práctico de las generaciones de la historia de la tecnología educativa.
             </p>
+            <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 leading-relaxed">
+              <strong class="text-red-300 block mb-1">Aporte a la formación docente:</strong>
+              Brindo una comprensión más amplia sobre la evolución de las tecnologías en la educación a distancia y su influencia en los procesos de enseñanza y aprendizaje.
+            </div>
             <div class="flex flex-wrap gap-2">
               <a href="https://drive.google.com/file/d/1rmDy0jq-x8IpWOv6vUMUQFVtp7fqj2OS/view?usp=drivesdk" target="_blank" class="inline-flex items-center bg-slate-800 hover:bg-red-700 text-white text-xs py-2.5 px-4 rounded-xl font-medium transition shadow">
                 <i class="fa-solid fa-file-arrow-down mr-1.5"></i> Ver Archivo
@@ -511,15 +482,7 @@
 
           <div class="lg:col-span-5 bg-slate-950 border border-dashed border-slate-700 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4">
             <div class="flex flex-col items-center shrink-0">
-              <img id="qr-img-tp6" src="" alt="QR Generaciones de Tecnología Educativa" class="hidden w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
-              <div id="qr-ph-tp6" class="w-32 h-32 rounded-xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-center p-2 mb-2">
-                <i class="fa-solid fa-qrcode text-slate-500 text-3xl mb-1"></i>
-                <span class="text-[10px] text-slate-400">QR Generaciones<br>(QR Code.IO)</span>
-              </div>
-              <label class="cursor-pointer text-[11px] bg-slate-800 hover:bg-red-700 text-slate-200 px-3 py-1 rounded-md transition">
-                Cargar de forma manual
-                <input type="file" accept="image/*" class="hidden" onchange="window.previewQr(this, 'qr-img-tp6', 'qr-ph-tp6')">
-              </label>
+              <img id="qr-img-tp6" src="Generaciones de la historia de la tec edu.jpg" alt="QR Generaciones de Tecnología Educativa" class="w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
             </div>
             <p class="text-xs text-slate-300 leading-snug text-center sm:text-left">
               Generaciones educativas, teorías TIC y juego interactivo en Educaplay.
@@ -559,15 +522,7 @@
 
           <div class="lg:col-span-5 bg-slate-950 border border-dashed border-slate-700 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4">
             <div class="flex flex-col items-center shrink-0">
-              <img id="qr-img-eval" src="" alt="QR Trabajo Práctico Evaluativo" class="hidden w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
-              <div id="qr-ph-eval" class="w-32 h-32 rounded-xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-center p-2 mb-2">
-                <i class="fa-solid fa-qrcode text-slate-500 text-3xl mb-1"></i>
-                <span class="text-[10px] text-slate-400">QR Evaluativo<br>(QR Code.IO)</span>
-              </div>
-              <label class="cursor-pointer text-[11px] bg-slate-800 hover:bg-red-700 text-slate-200 px-3 py-1 rounded-md transition">
-                Cargar de forma manual
-                <input type="file" accept="image/*" class="hidden" onchange="window.previewQr(this, 'qr-img-eval', 'qr-ph-eval')">
-              </label>
+              <img id="qr-img-eval" src="videodigitalinteractivo.jpg" alt="QR Trabajo Práctico Evaluativo" class="w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
             </div>
             <p class="text-xs text-slate-300 leading-snug text-center sm:text-left">
               Producción audiovisual interactiva y radio educativa sobre tecnología.
@@ -607,29 +562,12 @@
               </div>
             </div>
 
-            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-              <div class="text-xs text-slate-300">
-                <span class="font-semibold text-white block">Archivo adicional del Primer Parcial</span>
-                <span id="primer-parcial-file-name" class="text-slate-400">Podés adjuntar otro archivo si lo necesitás.</span>
-              </div>
-              <label class="cursor-pointer bg-slate-800 hover:bg-red-700 text-white text-xs px-3.5 py-2 rounded-xl font-medium transition shrink-0 text-center">
-                <i class="fa-solid fa-upload mr-1.5"></i> Cargar de forma manual
-                <input type="file" class="hidden" onchange="window.loadParcialFile(this)">
-              </label>
-            </div>
+
           </div>
 
           <div class="lg:col-span-5 bg-slate-950 border border-dashed border-slate-700 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4">
             <div class="flex flex-col items-center shrink-0">
-              <img id="qr-img-parcial1" src="" alt="QR Primer Parcial" class="hidden w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
-              <div id="qr-ph-parcial1" class="w-32 h-32 rounded-xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-center p-2 mb-2">
-                <i class="fa-solid fa-qrcode text-slate-500 text-3xl mb-1"></i>
-                <span class="text-[10px] text-slate-400">QR Parcial 1<br>(QR Code.IO)</span>
-              </div>
-              <label class="cursor-pointer text-[11px] bg-slate-800 hover:bg-red-700 text-slate-200 px-3 py-1 rounded-md transition">
-                Cargar de forma manual
-                <input type="file" accept="image/*" class="hidden" onchange="window.previewQr(this, 'qr-img-parcial1', 'qr-ph-parcial1')">
-              </label>
+              <img id="qr-img-parcial1" src="Primerparcial.jpg" alt="QR Primer Parcial" class="w-32 h-32 object-contain rounded-xl bg-white p-1.5 border border-slate-700 mb-2">
             </div>
             <p class="text-xs text-slate-300 leading-snug text-center sm:text-left">
               Transmisión en vivo, guion y autoevaluación grupal del Primer Parcial.
@@ -648,16 +586,56 @@
         <p class="text-slate-400 text-sm">El recorrido del grupo para armar los trabajos, las piezas audiovisuales y esta página web.</p>
       </div>
 
-      <div class="max-w-3xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-5 text-slate-300 text-xs sm:text-sm leading-relaxed">
-        <p>
-          Para armar este trabajo integrador y cada uno de los trabajos prácticos de la cátedra, nos organizamos de manera colaborativa en persona, en clases, por llamadas y por el grupo de WhatsApp, redactando guiones tanto para el streaming y los videos como para lo que queríamos contar en el sitio. Antes de pasar todo a la pantalla, hicimos bocetos escritos en papel para ordenar cómo iba a ir yendo la página, qué secciones iban primero y cómo conectar los trabajos de leyes, políticas TIC, reformas e innovación, metaverso y Padlet, historieta, generaciones y Educaplay, trabajo práctico evaluativo y primer parcial.
-        </p>
-        <p>
-          Elegimos usar CodePen porque ya estábamos usando Google Sites en otra materia y quisimos plantearnos el desafío de salir de la zona de confort, apoyándonos además en videos de YouTube como referencia para estructurar y replicar los distintos elementos web. También sumamos espacios de participación como la lluvia de ideas, el foro y el asistente guía, combinando distintas herramientas según cada etapa: CodePen, WhatsApp, Google Drive, YouTube, CapCut, TikTok, Canva, Educaplay, QR Code.IO y el espacio de metaverso.
-        </p>
-        <p>
-          El mayor trabajo estuvo en coordinar los tiempos entre los tres, unificar los criterios teóricos de cada trabajo y acomodar cada recurso en su lugar para que la presentación final quedara clara, ordenada y fácil de recorrer.
-        </p>
+      <div class="max-w-3xl mx-auto space-y-6">
+        <!-- Audio al principio de Detrás de Escena -->
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 sm:p-6 shadow-lg">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 rounded-xl bg-red-950 border border-red-800/60 flex items-center justify-center text-red-400 shrink-0">
+              <i class="fa-solid fa-headphones text-lg"></i>
+            </div>
+            <div>
+              <h4 class="text-sm sm:text-base font-bold text-white">Relato de Detrás de Escena (Audio)</h4>
+              <p class="text-xs text-slate-400">Grabación narrada por <strong class="text-slate-200">Gallardo M., Susana</strong> — Hacé clic para escuchar.</p>
+            </div>
+          </div>
+          <audio controls preload="metadata" class="w-full rounded-xl">
+            <source src="Audio de Freta JC.oga" type="audio/ogg">
+            Tu navegador no soporta la reproducción directa de este audio.
+          </audio>
+        </div>
+
+        <!-- Texto del recorrido -->
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-5 text-slate-300 text-xs sm:text-sm leading-relaxed">
+          <p>
+            Para armar este trabajo integrador y cada uno de los trabajos prácticos de la cátedra, nos organizamos de manera colaborativa en persona, en clases, por llamadas y por el grupo de WhatsApp, redactando guiones tanto para el streaming y los videos como para lo que queríamos contar en el sitio. Antes de pasar todo a la pantalla, hicimos bocetos escritos en papel para ordenar cómo iba a ir yendo la página, qué secciones iban primero y cómo conectar los trabajos de leyes, políticas TIC, reformas e innovación, metaverso y Padlet, historieta, generaciones y Educaplay, trabajo práctico evaluativo y primer parcial.
+          </p>
+          <p>
+            Elegimos usar CodePen en conjunto porque ya estábamos usando Google Sites en otra materia y quisimos plantearnos el desafío de salir de la zona de confort, apoyándonos además en videos de YouTube como referencia para estructurar y replicar los distintos elementos web, y finalmente publicamos el sitio mediante <strong>GitHub Pages</strong> para que se vea como una página web pública sin editor. También sumamos espacios de participación como la lluvia de ideas, el foro y el asistente guía, combinando distintas herramientas según cada etapa: CodePen, GitHub Pages, WhatsApp, Google Drive, YouTube, CapCut, TikTok, Canva, Educaplay, QR Code.IO, HitUps y el espacio de metaverso.
+          </p>
+          <p>
+            El mayor trabajo estuvo en coordinar los tiempos entre los tres, unificar los criterios teóricos de cada trabajo y acomodar cada recurso en su lugar para que la presentación final quedara clara, ordenada y fácil de recorrer.
+          </p>
+        </div>
+
+        <!-- QR de Evidencia y enlace al final -->
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col sm:flex-row items-center gap-6">
+          <div class="shrink-0">
+            <img src="Evidencia.jpg" alt="QR de Evidencia" class="w-36 h-36 object-contain rounded-xl bg-white p-1.5 border border-slate-700 shadow-md">
+          </div>
+          <div class="space-y-3 text-center sm:text-left">
+            <span class="bg-red-950 text-red-300 text-xs px-2.5 py-1 rounded-md font-semibold border border-red-800/50">Registro y Evidencias</span>
+            <h4 class="text-base sm:text-lg font-bold text-white">QR de Evidencia y Documento de Respaldo</h4>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Escaneá el código QR o ingresá directamente al documento con las evidencias del proceso de trabajo del grupo.
+            </p>
+            <div>
+              <a href="https://docs.google.com/document/d/16MmEAPuBQoI197v3tLJLrvgjdEoA6Rppfg3J9wOvxCA/edit?usp=drivesdk" target="_blank"
+                class="inline-flex items-center bg-red-700 hover:bg-red-600 text-white text-xs py-2.5 px-4 rounded-xl font-semibold transition shadow">
+                <i class="fa-solid fa-file-lines mr-1.5"></i> Ver Documento de Evidencias
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -770,7 +748,7 @@
 
         <div class="lg:col-span-7 bg-slate-900 p-6 sm:p-8 rounded-2xl border border-slate-800 flex flex-col justify-between space-y-5">
           <div>
-            <h4 class="text-base font-bold text-white mb-2"><i class="fa-solid fa-building-columns mr-2 text-red-400"></i> Institución y Encuadre del TIF</h4>
+            <h4 class="text-base font-bold text-white mb-2"><i class="fa-solid fa-building-columns mr-2 text-red-400"></i> Institución y Encuadre</h4>
             <p class="text-slate-300 text-xs leading-relaxed mb-3">
               <strong class="text-white text-sm block mb-0.5">I.E.S. N° 5 "José Eugenio Tello"</strong> — Profesorado de Educación Secundaria en TIC.<br>
               Cátedra: <strong>Historia de la Tecnología Educativa</strong> (Ciclo Lectivo 2026) — San Salvador de Jujuy, Jujuy, Argentina.
@@ -806,7 +784,7 @@
         <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 text-xs text-slate-300 space-y-2">
           <h4 class="text-sm font-bold text-white mb-2"><i class="fa-solid fa-toolbox mr-2 text-red-400"></i> Herramientas y Recursos</h4>
           <p class="leading-relaxed">
-            <strong>CodePen</strong>, <strong>WhatsApp</strong>,Google Drive, YouTube, QR Code.IO, Educaplay, Canva, CapCut, TikTok, audio normal para el podcast y espacio de Metaverso.
+            <strong>CodePen</strong>, <strong>GitHub Pages</strong>, <strong>WhatsApp</strong>, <strong>Google Drive</strong>, <strong>YouTube</strong>, <strong>QR Code.IO</strong>, <strong>Educaplay</strong>, <strong>Canva</strong>, <strong>CapCut</strong>, <strong>TikTok</strong>, <strong>HitUps</strong>, audio normal para el podcast y espacio de <strong>Metaverso</strong>.
           </p>
         </div>
       </div>
@@ -1123,7 +1101,7 @@
     }
 
     function getGuideReply(rawQuery) {
-      const q = rawQuery.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      const q = rawQuery.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
       if (q.includes('colabor') || q.includes('mamani') || q.includes('retamozo') || q.includes('villatarco') || q.includes('tercero') || q.includes('credito') || q.includes('qr code') || q.includes('rol') || q.includes('herramient') || q.includes('apa') || q.includes('bibliografia')) {
         return {
